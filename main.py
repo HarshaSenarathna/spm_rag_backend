@@ -37,6 +37,7 @@ app = FastAPI()
 # Set up CORS to allow requests from the frontend (localhost:3000)
 origins = [
     "http://localhost:3000",  # Frontend URL
+    "https://spm-rag-frontend-harsha-senarathnas-projects.vercel.app",  # Vercel deployment URL
 ]
 
 app.add_middleware(
